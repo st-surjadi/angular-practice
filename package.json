@@ -1,5 +1,5 @@
 {
-  "name": "angular-practice-up",
+  "name": "angular-practice",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -44,5 +44,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
+  },
+  "engines": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }

@@ -9,5 +9,15 @@ const express = require('express');
 const app = express();
 app.use(requireHTTPS);
 
-app.use(express.static(`./dist/angular-practice-up`));
+app.use(express.static(`./dist/angular-practice`));
 app.listen(process.env.PORT || 8080);
+
+// const express = require('express');
+// const path = require('path');
+// const app = express();
+// app.use(express.static(__dirname + '/dist/angular-practice-up'));
+// app.get('/*', function (req, res) {
+//   res.sendFile(path.join(__dirname +
+//     '/dist/angular-practice-up/index.html'));
+// });
+// app.listen(process.env.PORT || 8080);
